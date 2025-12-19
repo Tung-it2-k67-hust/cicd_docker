@@ -5,7 +5,7 @@ app.get("/", async (req, res) => {
   res.status(200).send("Xin chào bạn");
 });
 
-// Start server
+// Start serve
 app.listen(3000, () => {
   console.log("Server running on http://localhost:3000");
 });
