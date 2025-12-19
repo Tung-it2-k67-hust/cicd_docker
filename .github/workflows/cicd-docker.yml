@@ -30,7 +30,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: lamdb/it4409-sample:staging
+          tags: thatgymguyfromit2hust/it4409-sample:staging
   deploy:
     name: Deploy to Server
     runs-on: ubuntu-latest
