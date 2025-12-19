@@ -2,7 +2,7 @@ name: CI/CD and Docker
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   build-and-push:
     name: Build & Push Docker Image
